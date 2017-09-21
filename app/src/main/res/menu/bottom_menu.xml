@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Form Data"
+          android:id="@+id/formMenu"
+          android:icon="@android:drawable/ic_input_add"
+        ></item>
+
+    <item android:title="List Data"
+          android:id="@+id/listMenu"
+          android:icon="@android:drawable/ic_dialog_info"
+        ></item>
+
+    <item android:title="Delete Data"
+          android:id="@+id/deleteMenu"
+          android:icon="@android:drawable/ic_delete"
+        ></item>
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:padding="5dp"
+            >
+            <TextView
+                android:text="Id"/>
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:id="@+id/idUsers"
+                android:layout_width="200dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            >
+            <TextView android:text="No Hp"
+                />
+            <EditText
+                android:inputType="number|phone"
+                android:id="@+id/noHpUsers"
+                android:layout_marginLeft="20dp"
+                android:layout_width="200dp"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            >
+            <TextView android:text="Nama"/>
+
+            <EditText android:id="@+id/namaUsers"
+                android:layout_marginLeft="20dp"
+                android:layout_width="200dp"
+                />
+        </TableRow>
+        <Button
+            android:id="@+id/insertData"
+            android:textAllCaps="false"
+            android:text="Insert Data"
+            />
+    </TableLayout>
+
+
+</LinearLayout>
